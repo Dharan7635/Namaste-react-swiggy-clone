@@ -1,0 +1,30 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is from the second episode of Namaste React",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dharan7635/namaste-react.git"
+  },
+  "keywords": [],
+  "author": "\"Dharan\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dharan7635/namaste-react/issues"
+  },
+  "homepage": "https://github.com/Dharan7635/namaste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.10.1",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.18.0"
+  }
+}
