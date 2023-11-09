@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import {CDN_URL} from "../utils/constant";
 
 const RestaurantCard = (props) => {
@@ -11,8 +12,13 @@ const RestaurantCard = (props) => {
     sla: { slaString },
     id
   } = resData?.info;
-  return (
+  useEffect(()=>{
+    console.log("Im use effect")
+  },[])
+  return  (
+    
     <div className="res-cards">
+      {console.log("im from jsx")}
       <img
         className="res-logo"
         src={CDN_URL + cloudinaryImageId}
